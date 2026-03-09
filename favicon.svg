@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#101010"/>
+  
+  <!-- Left Brace -->
+  <path d="M 150 146 Q 110 146 110 196 L 110 226 Q 110 256 80 256 Q 110 256 110 286 L 110 316 Q 110 366 150 366" fill="none" stroke="#A0A0A0" stroke-width="28" stroke-linecap="round"/>
+  
+  <!-- Right Brace -->
+  <path d="M 362 146 Q 402 146 402 196 L 402 226 Q 402 256 432 256 Q 402 256 402 286 L 402 316 Q 402 366 362 366" fill="none" stroke="#A0A0A0" stroke-width="28" stroke-linecap="round"/>
+  
+  <!-- "R" -->
+  <path d="M 206 170 L 206 342 M 206 170 L 246 170 Q 276 170 276 215 Q 276 260 206 260 L 271 342" fill="none" stroke="#FAFAF8" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- "I" -->
+  <path d="M 314 170 L 314 342" fill="none" stroke="#5A5A5A" stroke-width="36" stroke-linecap="round"/>
+</svg>
