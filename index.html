@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Mohammad Rahil Iqbal</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300&family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=12" />
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <div class="site-wrapper">
+
+    <!-- NAV -->
+    <nav id="mainNav">
+      <a href="#" class="nav-logo hover-target">
+        <span class="logo-brace">{</span>
+        <span class="logo-first">Rahil</span><span class="logo-last">Iqbal</span>
+        <span class="logo-brace">}</span>
+      </a>
+      <div class="nav-r">
+        <a href="#work" class="hover-target">Selected Work</a>
+        <a href="#experience" class="hover-target">Experience</a>
+        <a href="#about" class="hover-target">Manifesto</a>
+        <a href="#contact" class="hover-target">Connect</a>
+      </div>
+      <button class="menu-btn hover-target" id="menuBtn" aria-label="Toggle menu">
+        <div class="menu-btn-lines"></div>
+      </button>
+    </nav>
+
+    <!-- MOBILE MENU OVERLAY -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-inner">
+        <a href="#work" class="mobile-link">Selected Work</a>
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#about" class="mobile-link">Manifesto</a>
+        <a href="#contact" class="mobile-link">Connect</a>
+        <div class="mobile-socials">
+          <a href="mailto:irahiliqbal@gmail.com" class="mobile-social-link">Email</a>
+          <a href="https://github.com/irahiliqbal" target="_blank" class="mobile-social-link">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+       HERO — PURE TYPOGRAPHY
+  ══════════════════════════════════════════════════════════════════════ -->
+    <div class="hero">
+      <!-- Mouse Tracking Spotlight Grid -->
+      <div class="spotlight-bg" id="spotlight"></div>
+
+      <div class="h-inner">
+        <div class="h-eyebrow rv">Software Engineer · India</div>
+
+
+
+        <h1 class="h-name rv d2" id="heroHeadline">
+          <span class="type-line" data-text="Building"></span><br />
+          <span class="type-line" data-text="systems that"></span><br />
+          <em class="type-line" data-text="matter."></em><span class="blinking-cursor">_</span>
+        </h1>
+
+        <div class="h-rule rv d3"></div>
+
+        <div class="h-bottom rv d3">
+          <p class="h-bio">
+            I am a computer science graduate who engineers software for the real world.
+            Currently founding <strong>ProjectAds</strong>—democratizing India's ₹6,500 Cr
+            outdoor advertising market through technology.
+          </p>
+
+          <div class="h-stats">
+            <div class="hs hover-target">
+              <span class="hs-n">Founder</span>
+              <div class="hs-l">ProjectAds</div>
+            </div>
+            <div class="hs hover-target">
+              <span class="hs-n">Engineer</span>
+              <div class="hs-l">Full-Stack</div>
+            </div>
+            <div class="hs hover-target">
+              <span class="hs-n">CU Mohali</span>
+              <div class="hs-l">B.E. CSE '25</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="h-scroll">
+        <div class="h-scroll-bar"></div>
+      </div>
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════════════════════════
+       TECH STACK MARQUEE
+  ══════════════════════════════════════════════════════════════════════ -->
+    <div class="tech-marquee-wrapper rv d3">
+      <div class="tech-marquee">
+        <div class="tech-marquee-inner">
+          <!-- Double content for seamless looping -->
+          <span>React.js</span> <span class="dot">•</span>
+          <span>Next.js</span> <span class="dot">•</span>
+          <span>Node.js</span> <span class="dot">•</span>
+          <span>Python</span> <span class="dot">•</span>
+          <span>Solidity</span> <span class="dot">•</span>
+          <span>MongoDB</span> <span class="dot">•</span>
+          <span>AWS</span> <span class="dot">•</span>
+          <span>C/C++</span> <span class="dot">•</span>
+          <span>Java</span> <span class="dot">•</span>
+          <span>Supabase</span> <span class="dot">•</span>
+          <span>Cloudflare</span> <span class="dot">•</span>
+
+          <span>React.js</span> <span class="dot">•</span>
+          <span>Next.js</span> <span class="dot">•</span>
+          <span>Node.js</span> <span class="dot">•</span>
+          <span>Python</span> <span class="dot">•</span>
+          <span>Solidity</span> <span class="dot">•</span>
+          <span>MongoDB</span> <span class="dot">•</span>
+          <span>AWS</span> <span class="dot">•</span>
+          <span>C/C++</span> <span class="dot">•</span>
+          <span>Java</span> <span class="dot">•</span>
+          <span>Supabase</span> <span class="dot">•</span>
+          <span>Cloudflare</span> <span class="dot">•</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+       PROJECTS — LIST VIEW
+  ══════════════════════════════════════════════════════════════════════ -->
+    <section class="section" id="work">
+      <div class="section-inner">
+        <div class="rv">
+          <div class="s-eyebrow">Portfolio</div>
+          <h2 class="s-title">Selected <em>work.</em></h2>
+        </div>
+
+        <div class="proj-list">
+
+          <!-- Project 1 -->
+          <a href="https://projectads.in" target="_blank" class="pl-item rv hover-target">
+            <div class="pl-header">
+              <span class="pl-num">I</span>
+              <h3 class="pl-name">ProjectAds</h3>
+              <span class="pl-badge">Active Startup</span>
+            </div>
+            <div class="pl-content">
+              <p class="pl-desc">
+                India's first phone-to-billboard advertising platform. Disrupting the traditional agency model
+                by allowing any business to book premium outdoor digital screens instantly via an interactive map
+                interface.
+                No minimum spend, complete transparency. Just upload your ads, select a location, date, and time, and go
+                live.
+              </p>
+              <div class="pl-tags">
+                <span class="pl-tag">SaaS Platform</span>
+                <span class="pl-tag">AdTech</span>
+                <span class="pl-tag">Next.js</span>
+                <span class="pl-tag">Next.js</span>
+                <span class="pl-tag">Node.js</span>
+              </div>
+            </div>
+            <div class="pl-arrow">
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </div>
+          </a>
+
+          <!-- Project 2 -->
+          <a href="https://cropmoisturehelper.lovable.app/" target="_blank" class="pl-item rv d1 hover-target">
+            <div class="pl-header">
+              <span class="pl-num">II</span>
+              <h3 class="pl-name">AI Irrigation System</h3>
+              <span class="pl-badge">Hardware + Software + AI</span>
+            </div>
+            <div class="pl-content">
+              <p class="pl-desc">
+                An AI-enabled IoT solution that optimizes irrigation by analyzing real-time soil moisture, temperature,
+                and weather data to determine the precise water requirements for different crops, reducing water waste
+                and improving crop productivity. The system features a simple, user-friendly interface designed to be
+                easily used by farmers, including those with limited technical knowledge.
+              </p>
+              <div class="pl-tags">
+                <span class="pl-tag">AI</span>
+                <span class="pl-tag">IoT / Sensors</span>
+                <span class="pl-tag">Python</span>
+                <span class="pl-tag">Data Visualization</span>
+              </div>
+            </div>
+            <div class="pl-arrow">
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </div>
+          </a>
+
+          <!-- Project 3 -->
+          <a href="#" target="_blank" class="pl-item rv d2 hover-target">
+            <div class="pl-header">
+              <span class="pl-num">III</span>
+              <h3 class="pl-name">Academic Certificate Verification using Blockchain</h3>
+              <span class="pl-badge">Web3 App</span>
+            </div>
+            <div class="pl-content">
+              <p class="pl-desc">
+                A decentralized platform that secures academic credentials by issuing university degrees as NFTs on a
+                blockchain ledger, creating a permanent and tamper-proof record that enables instant verification and
+                prevents certificate fraud.
+              </p>
+              <div class="pl-tags">
+                <span class="pl-tag">Ethereum</span>
+                <span class="pl-tag">Smart Contracts</span>
+                <span class="pl-tag">React.js</span>
+                <span class="pl-tag">Node.js, Express</span>
+
+              </div>
+            </div>
+            <div class="pl-arrow">
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </div>
+          </a>
+
+          <!-- Project 4 -->
+          <a href="https://irahiliqbal.github.io/amazflix/" target="_blank" class="pl-item rv d3 hover-target">
+            <div class="pl-header">
+              <span class="pl-num">IV</span>
+              <h3 class="pl-name">Amazflix</h3>
+              <span class="pl-badge">Micro-SaaS</span>
+            </div>
+            <div class="pl-content">
+              <p class="pl-desc">
+                A platform that enables users to securely share and split the cost of premium digital subscriptions
+                through group-based payment management and automated renewal tracking, making access to online services
+                more affordable and organized.
+              </p>
+              <div class="pl-tags">
+
+                <span class="pl-tag">Next.js, React</span>
+                <span class="pl-tag">Node.js, Express</span>
+                <span class="pl-tag">MongoDB</span>
+                <span class="pl-tag">Payment Gateway APIs</span>
+              </div>
+            </div>
+            <div class="pl-arrow">
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </div>
+          </a>
+
+          <!-- Project 5 -->
+          <a href="https://irahiliqbal.github.io/RahilOS" target="_blank" class="pl-item rv d3 hover-target">
+            <div class="pl-header">
+              <span class="pl-num">V</span>
+              <h3 class="pl-name">RahilOS</h3>
+              <span class="pl-badge">Frontend UI Concept</span>
+            </div>
+            <div class="pl-content">
+              <p class="pl-desc">
+                An interactive, nostalgic portfolio experience built to mimic a classic 90s graphical user interface. 
+                Complete with draggable windows, classic iconography, and a fully functional start menu, offering a unique and engaging way to explore my work.
+              </p>
+              <div class="pl-tags">
+                <span class="pl-tag">HTML5 / CSS3</span>
+                <span class="pl-tag">Vanilla JavaScript</span>
+                <span class="pl-tag">UI/UX Design</span>
+              </div>
+            </div>
+            <div class="pl-arrow">
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+       FULL-BLEED QUOTE BANNER (Typographic)
+  ══════════════════════════════════════════════════════════════════════ -->
+    <div class="full-bleed">
+      <div class="fb-bg"></div>
+      <div class="fb-overlay">
+        <div class="fb-quote-wrap rv">
+          <p class="fb-quote">
+            "Code is the tool. Impact is the goal."
+          </p>
+          <p class="fb-attr">Philosophy</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+       EXPERIENCE / STACK
+  ══════════════════════════════════════════════════════════════════════ -->
+    <section class="section" id="experience" style="background: var(--cream);">
+      <div class="section-inner">
+        <div class="experience-grid">
+
+          <div class="rv">
+            <div class="s-eyebrow">Expertise</div>
+            <h2 class="s-title">Technical <em>arsenal.</em></h2>
+            <p class="section-desc">
+              Four years of intensive academic study combined with shipping seven distinct products has forged a robust,
+              adaptable technical foundation spanning low-level systems to modern web interfaces.
+            </p>
+          </div>
+
+          <div class="stack-list">
+            <div class="stack-item rv d1">
+              <div class="stack-head">
+                <span class="stack-k">Languages</span>
+                <span class="stack-v">Python, C/C++, JavaScript, SQL, Solidity</span>
+              </div>
+              <p class="stack-note">Core logic, system architecture, and algorithmic design.</p>
+            </div>
+
+            <div class="stack-item rv d2">
+              <div class="stack-head">
+                <span class="stack-k">Frontend</span>
+                <span class="stack-v">React, HTML5, CSS3, DOM APIs</span>
+              </div>
+              <p class="stack-note">Crafting highly performant, accessible, and cinematic user interfaces.</p>
+            </div>
+
+            <div class="stack-item rv d3">
+              <div class="stack-head">
+                <span class="stack-k">Infrastructure</span>
+                <span class="stack-v">Node.js, REST APIs, Mapbox, IoT Protocols</span>
+              </div>
+              <p class="stack-note">Building scalable backends, integrating hardware systems, and handling geospatial
+                data.</p>
+            </div>
+
+            <div class="stack-item rv d3">
+              <div class="stack-head">
+                <span class="stack-k">Certifications</span>
+                <span class="stack-v">IoT (IIT Kharagpur) · CV & Image Processing (IBM)</span>
+              </div>
+              <p class="stack-note">Formal recognition of specialized engineering disciplines.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+       MANIFESTO / ABOUT
+  ══════════════════════════════════════════════════════════════════════ -->
+    <section class="section" id="about">
+      <div class="section-inner">
+        <div class="rv">
+          <div class="s-eyebrow">Manifesto</div>
+          <h2 class="s-title">The <em>founder.</em></h2>
+        </div>
+
+        <div class="manifesto-grid">
+
+          <div class="m-text rv d1">
+            <p class="at-p">
+              I was raised in Ghazipur, Uttar Pradesh—a quiet city defining the banks of the Ganga. At 19, I relocated
+              to Chandigarh to pursue a B.E. in Computer Science at CU Mohali.
+            </p>
+            <p class="at-p">
+              I do not build software for the sake of software. I engineer solutions that create real-world impact.
+              <strong>An AI-powered IoT irrigation system that helps farmers prevent crop loss through intelligent water
+                management, a blockchain-based credential platform that ensures tamper-proof academic verification, and
+                digital platforms that simplify access to services through efficient, user-centric design.</strong>
+              For me, software is not just code; it is a tool for solving practical problems and driving meaningful
+              human progress.
+            </p>
+            <p class="at-p">
+              Graduating in 2025, I immediately pivoted to founding ProjectAds to radically democratize an opaque ₹3,500
+              Cr industry. When I am not architecting systems or talking to customers, I am traveling to new places, 3D
+              printing stuff, exploring the real world with FPV drones, or cooking something new.
+            </p>
+          </div>
+
+          <div class="m-data rv d2">
+            <div class="at-table">
+              <div class="at-row"><span class="at-k">Education</span><span class="at-v">B.E. Computer Science</span>
+              </div>
+              <div class="at-row"><span class="at-k">Institution</span><span class="at-v">CU Mohali</span></div>
+              <div class="at-row"><span class="at-k">Academic Record</span><span class="at-v">8 / 10 CGPA</span></div>
+              <div class="at-row"><span class="at-k">Graduation</span><span class="at-v">Class of 2025</span></div>
+              <div class="at-row"><span class="at-k">Base of Ops</span><span class="at-v">Lucknow, India</span></div>
+              <div class="at-row"><span class="at-k">Hobbies</span><span class="at-v">Traveling, Cooking, 3D Printing,
+                  FPV Drones</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════════════════
+       CONTACT
+  ══════════════════════════════════════════════════════════════════════ -->
+    <div class="contact-section" id="contact">
+      <div class="noise-bg"></div>
+      <div class="contact-wrap rv">
+        <div>
+          <div class="s-eyebrow">Initiate Contact</div>
+          <h2 class="c-h">Let's <em>talk.</em></h2>
+          <p class="c-note">
+            Whether you are an investor, a potential collaborator, or simply a fellow engineer building interesting
+            things. My inbox is always open.
+          </p>
+        </div>
+        <div class="c-links">
+          <a href="mailto:irahiliqbal@gmail.com" class="c-link hover-target"><span
+              class="c-key">Email</span>irahiliqbal@gmail.com</a>
+          <a href="tel:+916393243597" class="c-link hover-target"><span class="c-key">Phone</span>+91-6393 243597</a>
+          <a href="https://github.com/irahiliqbal" target="_blank" class="c-link hover-target"><span
+              class="c-key">GitHub</span>github.com/irahiliqbal</a>
+          <div class="c-link"><span class="c-key">HQ</span>Chandigarh, India</div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <span class="ft-l">Mohammad Rahil Iqbal</span>
+      <span class="ft-r">Founder & Engineer · © 2026</span>
+    </footer>
+
+  </div>
+
+  <script src="script.js?v=3"></script>
+
+</body>
+
+</html>
